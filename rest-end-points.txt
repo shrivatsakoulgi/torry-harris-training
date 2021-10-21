@@ -1,0 +1,10 @@
+	REST End Point		Task
+--------------------------------------------
+localhost:8080/employees   -> List all employees (Get)
+localhost:8080/employees/1001   -> List employee with Id (Get)
+
+localhost:8080/addemployee   -> add employee (Post)
+
+localhost:8080/delete/1010  -> Delete Employee with Id (Delete)
+
+localhost:8080/update/1001   -> Update Employee with Id (PUT)
