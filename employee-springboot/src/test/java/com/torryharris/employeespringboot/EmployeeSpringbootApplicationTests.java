@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class EmployeeSpringbootApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void testSomething() {
+		assertEquals(10,5+5);
 	}
 
 }
